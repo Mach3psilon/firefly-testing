@@ -1,9 +1,8 @@
-name: Sonarcloud CI
+name: Build
 on:
   push:
     branches:
-      - main
-      - develop
+      - master
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
